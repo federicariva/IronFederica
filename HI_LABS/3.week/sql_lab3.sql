@@ -21,6 +21,7 @@ GROUP BY rating
 ORDER BY filmno DESC;
 
 #Which kind of movies (rating) have a mean duration of more than two hours?
-select rating, avg(length) from film
-group by rating
-having avg(length) > 120;
+select rating, avg(length)>120 from film
+group by rating;
+#having avg(length) > 120;
+

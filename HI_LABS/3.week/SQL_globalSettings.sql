@@ -1,0 +1,2 @@
+SET GLOBAL sql_mode = 'ONLY_FULL_GROUP_BY';
+SELECT @@GLOBAL.sql_mode;
